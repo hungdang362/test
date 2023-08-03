@@ -1,7 +1,7 @@
 # Full Stack Developer - Test
 
-Name: Đặng Thanh Hùng
-Phone: 0909256366
+Name: Đặng Thanh Hùng\
+Phone: 0909256366\
 email: thanhhung0407@gmail.com
 ### Front End
 Build a reusable modal component using Chakra-UI
