@@ -1,0 +1,99 @@
+.modalHeader {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 10px 20px !important;
+}
+
+.modalContent {
+  transform: translate(-50%, -50%);
+  background-color: #6dbcc5 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+}
+
+.dropInTop {
+  top: 0%;
+  animation: inTop 1s;
+}
+
+.dropInBottom {
+  bottom: 0%;
+  animation: inBottom 1s;
+}
+.btConfirm,
+.btCancel {
+  border-radius: 0 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.qaIcon {
+  margin-top: -4px !important;
+}
+
+@keyframes inTop {
+  0% {
+    top: -250%;
+  }
+
+  25% {
+    top: 0%;
+  }
+
+  40% {
+    top: -15%;
+  }
+
+  55% {
+    top: 0%;
+  }
+
+  70% {
+    top: -8%;
+  }
+
+  85% {
+    top: 0%;
+  }
+
+  95% {
+    top: -2%;
+  }
+
+  100% {
+    top: 0%;
+  }
+}
+
+@keyframes inBottom {
+  0% {
+    bottom: -250%;
+  }
+
+  25% {
+    bottom: 0%;
+  }
+
+  40% {
+    bottom: -15%;
+  }
+
+  55% {
+    bottom: 0%;
+  }
+
+  70% {
+    bottom: -8%;
+  }
+
+  85% {
+    bottom: 0%;
+  }
+
+  95% {
+    bottom: -2%;
+  }
+
+  100% {
+    bottom: 0%;
+  }
+}
